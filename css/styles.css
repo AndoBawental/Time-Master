@@ -1,0 +1,43 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+/* Hero Section */
+.hero-section {
+    background: url('assets/background.jpg') no-repeat center center/cover;
+    color: white;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Footer */
+footer {
+    width: 100%;
+    padding: 15px 0;
+}
+
+footer .d-flex a {
+    transition: transform 0.3s ease-in-out;
+}
+
+footer .d-flex a:hover {
+    transform: scale(1.2);
+}
+
+/* Modal Styling */
+.modal-body {
+    font-size: 16px;
+}
